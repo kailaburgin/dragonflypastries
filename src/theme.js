@@ -1,4 +1,6 @@
 import { extendTheme } from "@chakra-ui/react";
+import "@fontsource-variable/albert-sans";
+import "@fontsource/yeseva-one";
 
 const theme = extendTheme({
   styles: {
@@ -7,6 +9,10 @@ const theme = extendTheme({
         bg: "#FEFCBF",
       },
     },
+  },
+  fonts: {
+    heading: "Yeseva One",
+    body: "Albert Sans Variable",
   },
 });
 

@@ -1,9 +1,7 @@
+import Test from "./components/Test";
+
 function App() {
-  return (
-    <>
-      <h1>Hello</h1>
-    </>
-  );
+  return <Test />;
 }
 
 export default App;
